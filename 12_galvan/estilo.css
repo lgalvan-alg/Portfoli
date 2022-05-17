@@ -1,0 +1,763 @@
+/*se podria hacer con una clase para todos (wid y height para que sean todos iguales y luego agregarles id para darles diferentes posiciones, que es lo que les diferencia*/
+
+
+body{
+  background-color: lightblue;
+}
+
+
+#contenidor{
+  margin: 0 auto;
+  width: 1900px;
+  height:1000px;
+background: linear-gradient(90deg, rgba(156,231,78,0.3477766106442577) 0%, rgba(78,138,231,1) 0%, rgba(178,209,235,0.6615021008403361) 51%, rgba(111,180,232,1) 91%, rgba(118,155,232,1) 100%, rgba(60,230,151,0.6054796918767507) 100%);
+z-index: 1;
+}
+
+
+#petalo_centro{
+  width: 50px;
+  height: 50px;
+  background:lightpink;
+  z-index: 20;
+  border-radius: 50%;
+  margin-top: 500px;
+  margin-left: 480px;
+  position: absolute;
+  animation: floreta 10s ;
+
+}
+
+@keyframes floreta{
+  0% {transform: rotate(0deg); }
+  100% {transform: rotate(360deg);}
+}
+
+#petalo_uno{
+  width: 50px;
+  height: 200px;
+  background: lightpink;
+  border-radius: 48% 52% 49% 51% / 49% 49% 51% 51% ;
+  margin-top: -150px;
+  margin-left: 80px;
+  position: relative;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-right: 5px solid #C8A3FF;
+}
+
+#petalo_dos{
+  width: 50px;
+  height: 200px;
+  background:  lightpink;
+  border-radius: 48% 52% 49% 51% / 49% 49% 51% 51% ;
+  margin-top: -40px;
+  margin-left: 80px;
+  position: relative;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-right: 5px solid #C8A3FF;
+
+}
+
+
+#petalo_tres{
+  width: 50px;
+  height: 200px;
+  background:  lightpink;
+  z-index: 9;
+  border-radius: 48% 52% 49% 51% / 49% 49% 51% 51% ;
+  margin-top: -190px;
+  margin-left: -70px;
+  position: relative;
+  -moz-transform: rotate(-145deg);
+  -webkit-transform: rotate(-145deg);
+  -o-transform: rotate(-145deg);
+  -ms-transform: rotate(-145deg);
+  transform: rotate(-145deg);
+  border-top: 10px solid #C8A3FF;
+  border-right: 5px solid #C8A3FF;
+}
+
+#petalo_quatre{
+  width: 50px;
+  height: 200px;
+  background: lightpink;
+  border-radius: 48% 52% 49% 51% / 49% 49% 51% 51% ;
+  margin-top: -368px;
+  margin-left: -80px;
+  position: relative;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-top: 10px solid #C8A3FF;
+  border-right: 5px solid #C8A3FF;
+}
+
+#petalo_cinco{
+  width: 20px;
+  height: 80px;
+  background:  lightpink;
+  border-radius: 48% 52% 49% 51% / 49% 49% 51% 51% ;
+  margin-top: -40px;
+  margin-left: 18px;
+  position: relative;
+  -moz-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+}
+
+#petalo_seis{
+  width: 20px;
+  height: 80px;
+  background:  lightpink;
+  border-radius: 48% 52% 49% 51% / 49% 49% 51% 51% ;
+  margin-top: -150px;
+  margin-left: 15px;
+  position: relative;
+  z-index: 40;
+
+}
+
+
+#palo{
+  width: 20px;
+  height: 300px;
+  background: black;
+  z-index: 8;
+  margin-left: 496;
+  margin-top: 520px;
+  position: absolute;
+}
+
+
+#cesped{
+  width: 1900;
+  height: 300px;
+  background: silver;
+  z-index: 35;
+  margin-top: 780px;
+  position: absolute;
+
+}
+
+/*nubes*//*nubes*//*nubes*//*nubes*//*nubes*/
+
+#nubes{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  z-index: 50;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-left: 80px;
+  position: absolute;
+
+}
+
+#nube_1{
+  width: 80px;
+  height: 80px;
+  background-color: white;
+
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 50px;
+  position: relative;
+
+}
+
+#nube_2{
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: -80px;
+  margin-left: -40px;
+  position: relative;
+
+}
+
+
+#nubes_dos{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  z-index: 55;
+  border-radius: 50%;
+  margin-top: 200px;
+  margin-left: 900px;
+  position: absolute;
+
+}
+
+#nube_4{
+  width: 80px;
+  height: 80px;
+  background-color: white;
+
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 50px;
+  position: relative;
+
+}
+
+#nube_5{
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: -80px;
+  margin-left: -40px;
+  position: relative;
+
+}
+
+#nubes_tres{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  z-index: 55;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-left: 1500px;
+  position: absolute;
+
+}
+
+#nube_6{
+  width: 80px;
+  height: 80px;
+  background-color: white;
+
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 50px;
+  position: relative;
+
+}
+
+#nube_7{
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: -80px;
+  margin-left: -40px;
+  position: relative;
+
+}
+/*sol*//*sol*//*sol*/
+@keyframes solete{
+  0% {transform: rotate(0deg); }
+  100% {transform: rotate(-360deg);}
+}
+
+
+#sol{
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgba(255,154,94,1) 0%, rgba(255,146,2,1) 42%, rgba(255,205,81,1) 100%, rgba(255,0,0,1) 100%);
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-left: 1500px;
+  position: absolute;
+  z-index: 5;
+  animation: solete 10s ;
+
+}
+#unosol{
+  width:80px;
+  height: 20px;
+  background: radial-gradient(circle, rgba(255,154,94,1) 0%, rgba(255,146,2,1) 42%, rgba(255,205,81,1) 100%, rgba(255,0,0,1) 100%);
+
+  margin-top: 75px;
+  margin-left: 155px;
+  position: relative;
+  z-index: 4;
+}
+
+#dossol{
+  width:80px;
+  height: 20px;
+  background: radial-gradient(circle, rgba(255,154,94,1) 0%, rgba(255,146,2,1) 42%, rgba(255,205,81,1) 100%, rgba(255,0,0,1) 100%);
+
+  margin-top: 90px;
+  margin-left: 35px;
+  position: relative;
+  z-index: 4;
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+}
+
+#tressol{
+  width:80px;
+  height: 20px;
+  background: radial-gradient(circle, rgba(255,154,94,1) 0%, rgba(255,146,2,1) 42%, rgba(255,205,81,1) 100%, rgba(255,0,0,1) 100%);
+  margin-top: -125px;
+  margin-left: -85px;
+  position: relative;
+  z-index: 4;
+  -moz-transform: rotate(0deg);
+-webkit-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+transform: rotate(0deg);
+
+}
+
+#cuatrosol{
+  width:80px;
+  height: 20px;
+  background: radial-gradient(circle, rgba(255,154,94,1) 0%, rgba(255,146,2,1) 42%, rgba(255,205,81,1) 100%, rgba(255,0,0,1) 100%);
+  margin-top: -155px;
+  margin-left: 35px;
+  position: relative;
+  z-index: 4;
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+}
+
+/*casa*//*casa*//*casa*//*casa*//*casa*//*casa*/
+
+
+#hospital{
+  margin-top: -455px;
+  width: 500px;
+  height: 80px;
+  margin-left:-30px;
+  padding: 30px;
+}
+
+p
+{
+  font-size:32px;
+  background: black;
+  z-index: 90;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+}
+
+#centro{
+  width: 500px;
+  height: 500px;
+  background-color:#6E7AA7;
+
+  margin-top: 400px;
+  margin-left: 1200px;
+  position: absolute;
+  z-index: 2;
+  border: 10px solid black;
+}
+
+#puertacentro{
+ width: 400px;
+ height: 200px;
+ margin-left: 50px;
+ position: absolute;
+ z-index: 4;
+ background-color: #858787;
+ border: 5px solid black;
+ margin-top: 200px;
+}
+
+#pcentro{
+ width: 50px;
+ height: 400px;
+ margin-left: 170px;
+ position: absolute;
+ z-index: 6;
+ background-color: black;
+ border: 5px solid black;
+
+}
+
+@keyframes mianimacion {
+  0% { background: #aaa}
+  25% { background: lightgreen}
+  50% { background: pink}
+  100% { background: lightblue}
+
+}
+
+ p.textocentro
+ {
+   font-size:60px;
+   margin-top: -5px;
+   background: #3C4567;
+   z-index: 90;
+   font-weight: bold;
+   color: black;
+   text-align: center;
+  border: 5px solid black;
+  animation-name: mianimacion;
+  animation-duration: 10s;
+
+ }
+
+
+
+
+
+
+#casa{
+  width: 500px;
+  height: 800px;
+  background-color:#444A50;
+
+  margin-top: 200px;
+  margin-left: 90px;
+  position: absolute;
+  z-index: 3;
+  border: 5px solid black;
+}
+
+
+#ventanauno{
+ width: 100px;
+ height: 100px;
+ margin-top: 40px;
+ margin-left: 120px;
+ position: relative;
+ z-index: 4;
+ background-color: lightblue;
+ border: 5px solid black;
+}
+
+#ventanados{
+ width: 100px;
+ height: 100px;
+ margin-top: 10px;
+ margin-left: 120px;
+ position: relative;
+ z-index: 4;
+ background-color: lightblue;
+ border: 5px solid black;
+}
+
+
+#ventanatres{
+ width: 100px;
+ height: 100px;
+ margin-top: 10px;
+ margin-left: 120px;
+ position: relative;
+ z-index: 4;
+ background-color: lightblue;
+ border: 5px solid black;
+}
+
+#ventanacuatro{
+ width: 100px;
+ height: 100px;
+ margin-top: -350px;
+ margin-left: 260px;
+ position: relative;
+ z-index: 4;
+ background-color: lightblue;
+ border: 5px solid black;
+}
+
+#ventanacinco{
+ width: 100px;
+ height: 100px;
+ margin-top: 10px;
+ margin-left: 260px;
+ position: relative;
+ z-index: 4;
+ background-color: lightblue;
+ border: 5px solid black;
+}
+#ventanaseis{
+ width: 100px;
+ height: 100px;
+ margin-top: 10px;
+ margin-left: 260px;
+ position: relative;
+ z-index: 4;
+ background-color: lightblue;
+ border: 5px solid black;
+}
+
+#puerta{
+ width: 300px;
+ height: 200px;
+ margin-top: 10px;
+ margin-left: 90px;
+ position: absolute;
+ z-index: 4;
+ background-color: black;
+ border: 5px solid black;
+}
+#puertauno{
+ width: 120px;
+ height: 200px;
+ margin-left: 20px;
+ position: relative;
+ z-index: 4;
+ background-color: #858787;
+ border: 5px solid black;
+}
+
+#pdos{
+ width: 120px;
+ height: 200px;
+ margin-left: 160px;
+ margin-top: -210px;
+ position: relative;
+ z-index: 5;
+ background-color: #858787;
+ border: 5px solid black;
+}
+
+
+
+/*montaña*//*montaña*//*montaña*/
+
+
+
+#montaña{
+  width: 400px;
+  height:200px;
+  background: #144221;
+  border-radius:51% 49% 100% 0% / 100% 100% 0% 0% ;
+  margin-top: 700px;
+  margin-left: 40px;
+  position: absolute;
+  z-index: 3;
+border: 5px solid black;
+}
+#monte{
+  width: 400px;
+  height:200px;
+  background: #144221;
+  border-radius:51% 49% 100% 0% / 100% 100% 0% 0% ;
+  margin-top: 610;
+  margin-left: 500px;
+  position: absolute;
+  z-index: 2;
+   border: 10px solid black;
+
+}
+
+#monteuno{
+  width: 400px;
+  height:200px;
+  background: #144221;
+  border-radius:51% 49% 100% 0% / 100% 100% 0% 0% ;
+  border-radius:51% 49% 100% 0% / 100% 100% 0% 0% ;
+  margin-top: 80px;
+  margin-left: 200px;
+  position: relative;
+  z-index: 2;
+  border: 5px solid black;
+
+}
+
+#montedos{
+  width: 400px;
+  height:200px;
+  background: #144221;
+  border-radius:51% 49% 100% 0% / 100% 100% 0% 0% ;
+  margin-top: -220;
+  margin-left: 500px;
+  position: relative;
+  z-index: 2;
+  border: 10px solid black;
+}
+
+#carretera{
+  width: 1900;
+  height:50px;
+  background: black;
+  z-index: 70;
+  margin-top: 780px;
+  position: absolute;
+}
+
+#cdos{
+  width: 1900;
+  height:50px;
+  background: #7A7A7A;
+  z-index: 75;
+  position: relative;
+  margin-top: 135px;
+}
+
+#ctres{
+  width: 1900;
+  height:50px;
+  background: black;
+  z-index: 75;
+  position: relative;
+  margin-top:80px;
+
+}
+
+
+#cochenumdos{
+  width: 80;
+  height:100px;
+  background: black;
+  z-index: 87;
+  position: absolute;
+  margin-top: 850px;
+  margin-left:  400px;
+  /*animation: ; */
+  animation-name: moverdos;
+  animation-duration: 10s;
+
+}
+
+#tdos{
+  width: 70px;
+  height:70px;
+  background: black;
+  z-index: 87;
+  position: relative;
+  margin-top: 30px;
+  margin-left:  -60px;
+
+}
+
+#capo{
+  width: 70px;
+  height:100px;
+  background: black;
+  z-index: 87;
+  position: relative;
+  margin-top: -100px;
+  margin-left:  50px;
+  border-radius: 80%;
+}
+
+#runo{
+  width: 50px;
+  height:50px;
+  background: black;
+  z-index: 87;
+  position: relative;
+  margin-top: -20px;
+  margin-left:  50px;
+  border-radius: 50%;
+}
+
+#rdos{
+  width: 50px;
+  height:50px;
+  background: black;
+  z-index: 87;
+  position: relative;
+  margin-top: -50px;
+  margin-left:  -60px;
+  border-radius: 50%;
+}
+@keyframes moverdos{
+ 0%{
+   transform: translateX(0);
+
+ }
+ 100%{
+   transform: translateX(1000px) ;
+ }
+}
+
+
+/*coche*//*coche*//*coche*//*coche*//*coche*//*coche*//*coche*//*coche*//*coche*/
+
+@keyframes mover{
+ 0%{
+   transform: translateX(0);
+   left
+ }
+ 100%{
+   transform: translateX(1000px) ;
+ }
+}
+
+#coche{
+  width: 80;
+  height:100px;
+  background: black;
+  z-index: 87;
+  position: absolute;
+  margin-top: 850px;
+  margin-left:  80px;
+  /*animation: ; */
+  animation-name: mover;
+  animation-duration: 10s;
+
+}
+#trasera{
+  width: 70px;
+  height:70px;
+  background: black;
+  z-index: 87;
+  position: relative;
+  margin-top: 30px;
+  margin-left:  -70px;
+
+}
+
+#delantera{
+  width: 70px;
+  height:100px;
+  background: black;
+  z-index: 87;
+  position: relative;
+  margin-top: -100px;
+  margin-left:  50px;
+  border-radius: 80%;
+}
+
+#ruedauno{
+  width: 50px;
+  height:50px;
+  background: black;
+  z-index: 87;
+  position: relative;
+  margin-top: -20px;
+  margin-left:  40px;
+  border-radius: 50%;
+}
+
+#ruedados{
+  width: 50px;
+  height:50px;
+  background: black;
+  z-index: 87;
+  position: relative;
+  margin-top: -50px;
+  margin-left:  -50px;
+  border-radius: 50%;
+}
+#ventanacoche{
+  width: 70px;
+  height:40px;
+  background: silver;
+  z-index: 87;
+  position: relative;
+  margin-top: -120px;
+  margin-left:  20px;
+}
