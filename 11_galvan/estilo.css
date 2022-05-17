@@ -1,0 +1,152 @@
+/*se podria hacer con una clase para todos (wid y height para que sean todos iguales y luego agregarles id para darles diferentes posiciones, que es lo que les diferencia*/
+
+
+body{
+  background-color: lightblue;
+}
+
+
+#contenidor{
+  margin: 0 auto;
+  width: 1000px;
+  height:1000px;
+background: linear-gradient(90deg, rgba(156,231,78,0.3477766106442577) 0%, rgba(78,138,231,1) 0%, rgba(178,209,235,0.6615021008403361) 51%, rgba(111,180,232,1) 91%, rgba(118,155,232,1) 100%, rgba(60,230,151,0.6054796918767507) 100%);
+z-index: 1;
+}
+
+
+#petalo_centro{
+  width: 50px;
+  height: 50px;
+  background:lightpink;
+  z-index: 20;
+  border-radius: 50%;
+  margin-top: 500px;
+  margin-left: 480px;
+  position: absolute;
+  animation: floreta 10s ;
+
+}
+
+@keyframes floreta{
+  0% {transform: rotate(0deg); }
+  100% {transform: rotate(360deg);}
+}
+
+#petalo_uno{
+  width: 50px;
+  height: 200px;
+  background: lightpink;
+  border-radius: 48% 52% 49% 51% / 49% 49% 51% 51% ;
+  margin-top: -150px;
+  margin-left: 80px;
+  position: relative;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-right: 5px solid #C8A3FF;
+}
+
+#petalo_dos{
+  width: 50px;
+  height: 200px;
+  background:  lightpink;
+  border-radius: 48% 52% 49% 51% / 49% 49% 51% 51% ;
+  margin-top: -40px;
+  margin-left: 80px;
+  position: relative;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-right: 5px solid #C8A3FF;
+
+}
+
+
+#petalo_tres{
+  width: 50px;
+  height: 200px;
+  background:  lightpink;
+  z-index: 9;
+  border-radius: 48% 52% 49% 51% / 49% 49% 51% 51% ;
+  margin-top: -190px;
+  margin-left: -70px;
+  position: relative;
+  -moz-transform: rotate(-145deg);
+  -webkit-transform: rotate(-145deg);
+  -o-transform: rotate(-145deg);
+  -ms-transform: rotate(-145deg);
+  transform: rotate(-145deg);
+  border-top: 10px solid #C8A3FF;
+  border-right: 5px solid #C8A3FF;
+}
+
+#petalo_quatre{
+  width: 50px;
+  height: 200px;
+  background: lightpink;
+  border-radius: 48% 52% 49% 51% / 49% 49% 51% 51% ;
+  margin-top: -368px;
+  margin-left: -80px;
+  position: relative;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-top: 10px solid #C8A3FF;
+  border-right: 5px solid #C8A3FF;
+}
+
+#petalo_cinco{
+  width: 20px;
+  height: 80px;
+  background:  lightpink;
+  border-radius: 48% 52% 49% 51% / 49% 49% 51% 51% ;
+  margin-top: -40px;
+  margin-left: 18px;
+  position: relative;
+  -moz-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+}
+
+#petalo_seis{
+  width: 20px;
+  height: 80px;
+  background:  lightpink;
+  border-radius: 48% 52% 49% 51% / 49% 49% 51% 51% ;
+  margin-top: -150px;
+  margin-left: 15px;
+  position: relative;
+  z-index: 40;
+
+}
+
+
+#palo{
+  width: 20px;
+  height: 300px;
+  background: black;
+  z-index: 8;
+  margin-left: 496;
+  margin-top: 520px;
+  position: absolute;
+}
+
+
+#cesped{
+  width: 1000;
+  height: 300px;
+  background: black;
+  z-index: 35;
+  margin-top: 780px;
+  position: absolute;
+
+}
