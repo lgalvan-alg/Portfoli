@@ -1,0 +1,94 @@
+
+body{
+background-color: white;
+}
+contenedor::-webkit-scrollbar{
+  background: black;
+
+}
+/*scroll*//*scroll*//*scroll*//*scroll*//*scroll*/
+
+/*scroll*//*scroll*//*scroll*//*scroll*//*scroll*/
+#cabecera{
+  width: auto ;
+  height: 150px;
+  background-color: brown;
+  background-color: silver;
+}
+
+h2{
+  text-align: center;
+    font-family:"dearlove", "arial" ;
+    padding-top:40px;
+    font-size: 50px;
+}
+#contenedor{
+
+  width: 700px;
+  height:600px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.bola{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  float: left;
+  background-color: lightpink;
+  margin: 20px;
+
+}
+
+p{
+  text-align: center;
+  font-family:"dearlove",, "arial" ;
+  font-size: 80px;
+  color: blue;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+#footer{
+  width: auto ;
+  height: 150px;
+  background-color: brown;
+  background-color: silver;
+}
+
+@media screen and (max-width: 767px) {
+  body{
+  background-color: white;
+
+}
+h2{
+  text-align: center;
+  font-family: "playbill", "arial";
+  color: blue;
+    padding-top:50px;
+    font-size: 70px;
+}
+p{
+  text-align: center;
+  font-family:"dearlove", "arial" ;
+  font-size: 40px;
+  color: blue;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+#contenedor{
+  width: 300px;
+  height:1200px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.bola{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  float: left;
+  background-color: lightblue;
+  margin: 20px;
+
+}
+}
