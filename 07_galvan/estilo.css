@@ -1,0 +1,104 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: silver;
+}
+
+#contenedor{
+  width: 800px;
+  background-color: white;
+  margin: 0 auto;
+  height: 400px;
+}
+ #cabecera{
+background-color: #566573 ;
+height: 100px;
+padding: 30px;
+
+}
+#menu{
+  width: 480px;
+  margin: 0 auto;
+}
+.izq{
+  width: 340px;
+  height: 400px;
+  background-color: #EAF2F8;
+  float: left;
+  padding: 30px;
+}
+
+.der{
+  width: 340px;
+  height: 400px;
+  background-color: #F9EBEA;
+  float: left;
+  padding: 30px;
+}
+
+#pie{
+  height: 100px;
+  background-color: #212F3D;
+  clear: both;
+}
+
+.boletes{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin-right: 20px;
+  float: left;
+
+}
+
+#bolasmenu{
+margin: 0 auto;
+width: 480px;
+}
+
+.boletes:hover{
+  opacity: 0.5;
+}
+
+ #uno{
+   background-color: red;
+ }
+
+ #dos{
+   background-color: blue;
+ }
+
+
+ #tres{
+   background-color: yellow;
+ }
+
+ #quatro{
+   background-color: green;
+ }
+
+ ul{
+   list-style-type: none;
+   width: 400px;
+   margin: 0 auto;
+ }
+
+li a{
+  text-decoration: none;
+  display: block;
+  width:50px;
+  padding: 20px;
+  float: left;
+  color: white;
+}
+
+
+li a:hover{
+  background-color: black;
+  color: white;
+
+}
