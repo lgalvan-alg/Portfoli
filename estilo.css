@@ -1,0 +1,282 @@
+body{
+
+background-image: url(img/bodyimgdos.jpg);
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+#cabecera{
+  width: 100%;
+  height: 200px;
+  background-image: url(img/bodyimguno.jpg);
+}
+
+#cabecera h1{
+font-size: 80px;
+text-align: center;
+padding-top: 50px;
+}
+
+
+#nombre{
+  width: 500px;
+  height: 100px;
+  background-color: silver;
+margin: 0 auto;
+  margin-top: -50px;
+box-shadow: 8px 8px 8px black;
+}
+
+#nombre h1{
+  font-size: 40px;
+  text-align: center;
+padding-top: 10px;
+}
+
+/*inicio*//*inicio*//*inicio*//*inicio*//*inicio*//*inicio*//*inicio*//*inicio*/
+
+.boletes{
+  width: 300px;
+  height: 300px;
+margin-top: 40px;
+
+  float: left;
+  margin-left:300px;
+}
+
+.bolas img:hover{
+filter: grayscale(80%);
+
+}
+.uf{
+  width:80px;
+  height: 50px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.uf p{
+  margin-left: -0.2px;
+}
+
+.significado{
+  border-left: 2PX SOLID BLACK;
+  width:100%;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.significado p{
+  margin-left: -0.2px;
+  font-size: 20px;
+  padding-left: 5PX;
+}
+p{
+  font-size: 40px;
+  margin-left: 100px;
+  font-family: monospace;
+  margin-right: 20px;
+}
+
+#contenedor{
+
+float: left;
+  width: 700px;
+  height: 600px;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+
+#pie{
+  width: 100%;
+  background-color: silver;
+  height: 100px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+ .clear{
+   clear: both;
+ }
+
+/*inicio*//*inicio*//*inicio*//*inicio*//*inicio*//*inicio*//*inicio*/
+
+
+/*uf1*//*uf1*//*uf1*//*uf1*//*uf1*//*uf1*//*uf1*//*uf1*//*uf1*/
+
+#contenedorinicio{
+  height: 1700px;
+  width: 1200px;
+  margin: 0 auto;
+
+  margin-top: 20px;
+}
+
+#actividades{
+  height: 100px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#actividades h1{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.ejercicios{
+  width: 540px;
+  height: 500px;
+  float: left;
+  margin: 20px;
+box-shadow: 8px 8px 8px black;
+background-color: white;
+}
+
+
+.ejercicios:hover {
+filter: grayscale(80%);
+transition:all .2s ease-in-out;
+}
+.ejercicios p{
+  margin-top: 10px;
+  font-size: 25px;
+margin-right: 40PX;
+  text-align: justify;
+  margin-left: 40px;
+
+}
+
+.ejercicios h1{
+font-size: 40px;
+margin-bottom: 80px;
+margin-top: 20px;
+
+text-align: center;
+}
+
+/*uf1*//*uf1*//*uf1*//*uf1*//*uf1*//*uf1*//*uf1*//*uf1*//*uf1*/
+
+.normal {
+  background-color: #6F6F6F;
+  width: 100%;
+height: 50px;
+}
+
+/*listas dentro del na quitar los puntos*/
+.normal ul{
+  list-style-type: none;
+}
+/*enlaces dentro de los listados enlaces*/
+.normal ul li a{
+  text-decoration: none;
+  padding-left: 10px;
+  padding-top: 20px;
+  display: block;
+  float: left;
+  width: 19.3%;
+  height: 50px;
+  text-align: center;
+  color: black;
+
+}
+
+.normal ul li a:hover{
+  color: lightyellow;
+  background: black;
+  height: 50px;
+}
+
+
+@media screen and (max-width: 767px) {
+  body{
+  background-color: white;
+  }
+
+#contenedorinicio{
+  width: 100%;
+
+}
+  .normal ul li a{
+
+    display: block;
+    float: left;
+    width: 18%;
+    height: 50px;
+    text-align: center;
+    color: black;
+
+  }
+#nombre h1{
+  font-size: 40px;
+  text-align: center;
+padding-top: 10px;
+}
+
+#cabecera h1{
+  font-size: 40px;
+  text-align: center;
+padding-top: 50px;
+}
+
+#contenedor{
+  margin-left: 20px;
+  margin-top: -60px;
+}
+ .significado p{
+   font-size: 15px;
+ }
+
+ .boletes{
+   margin-left: 100px;
+ }
+.boletes img{
+  margin-top: 100px;
+    margin-bottom: 80px;
+}
+ .significado{
+   font-size: 15px;
+width: 80%;
+
+ }
+
+ .ejercicios{
+   width: 40%;
+   height: 300px;
+   float: left;
+ }
+
+ .ejercicios p{
+   font-size: 15px;
+   margin-top: -10px;
+ }
+
+ .ejercicios h1{
+   font-size: 25px;
+   margin-top: 30px;
+   margin-right: 5px;
+   margin-left: 5px;
+ }
+
+
+ #contenedorinicio{
+   height:2000px;
+ }
+
+ #pie{
+   color: silver;
+ }
+ .clear{
+   clear: both;
+ }
+
+}
+
+/*menu*/
